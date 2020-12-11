@@ -1,0 +1,114 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>Currency code checker</title>
+		<meta name="description" content="Currency code">
+		<meta name="author" content="Artur Knul">
+
+	</head>
+
+	<body>
+		<p>Choose a country and language of your destination</p>
+		<br>
+		<p>Check code of currency you need there:</p>
+		<br>
+		<select id="selCountry">
+			<option value="AT">Austria</option>
+            <option value="EG">Egypt</option>
+            <option value="TH">Thailand</option>
+			<option value="AU">Australia</option>
+			<option value="CH">Switzerland</option>
+            <option value="BR">Brasil</option>
+            <option value="GB">Great Britain</option>
+			<option value="FR">France</option>
+			<option value="DE">Germany</option>
+			<option value="US">USA</option>
+		</select>
+
+		<select id="selLanguage">
+			<option value="AT">AT</option>
+            <option value="EG">EG</option>
+			<option value="TH">TH</option>
+            <option value="AU">AU</option>
+            <option value="CH">CH</option>
+            <option value="BR">BR</option>
+			<option value="GB">GB</option>
+            <option value="FR">FR</option>
+            <option value="DE">DE</option>
+            <option value="US">US</option>
+		</select>
+
+		<button id="btnRun">Run</button>
+
+		<br><br>
+
+		<div id="divResults">
+			
+			<table>
+
+				<tr>
+					<td align="right">
+						Country name: 
+					</td>
+					<td id="txtContinent">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Currency code: 
+					</td>
+					<td id="txtCapital">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Language(s): 
+					</td>
+					<td id="txtLanguages">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Iso Alpha code: 
+					</td>
+					<td id="txtPopulation">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Iso Numeric code: 
+					</td>
+					<td id="txtArea">
+						
+					</td>
+
+				</tr>
+
+
+			</table>
+
+		</div>
+
+		<script type="application/javascript" src="libs/js/jquery-2.2.3.min.js"></script>
+		<script type="application/javascript" src="libs/js/script.js"></script>
+
+	</body>
+
+</html>
